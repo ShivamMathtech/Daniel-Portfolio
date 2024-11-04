@@ -1,7 +1,76 @@
 .home-page {
   height: 100vh;
+  background-image: url("/img/img2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .overlay {
   height: 100%;
-  background-color: rgba(73, 74, 72, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+  height: 20%;
+}
+.square-box {
+  height: 50px;
+  width: 50px;
+  background-color: #383838;
+  position: relative;
+}
+.menu-box {
+  height: 270px;
+  position: absolute;
+  width: 180px;
+  background-color: #383838;
+  top: 100%;
+  right: 100%;
+  display: none;
+}
+.active {
+  display: block;
+}
+.menu-box .nav-link {
+  color: white;
+  text-transform: capitalize;
+
+  font-weight: 500;
+}
+.content-1 {
+  height: 60%;
+}
+.text-1 {
+  width: 70%;
+}
+.text-1 h1 {
+  font-size: 120px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.myclr {
+  color: #ff5722;
+}
+.text-1 p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.mybtn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.mybtn:hover {
+  background-color: #ff3d00;
+}
+.footer {
+  height: 20%;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.footer .square-box {
+  margin-left: 4px;
 }
