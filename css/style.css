@@ -1,0 +1,7 @@
+.home-page {
+  height: 100vh;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(73, 74, 72, 0.5);
+}
